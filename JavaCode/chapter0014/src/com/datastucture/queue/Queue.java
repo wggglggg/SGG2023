@@ -26,23 +26,6 @@ public class Queue {
         size++;
     }
 
-    // 删除
-    public Object delete(){
-        if (size <= 0) {
-            throw new RuntimeException("队列已空，删除失败");
-        }
-
-        Object obj = value[0];
-
-        // 剩余向前移动
-        for (int i = 0; i < size-1; i++) {
-            value[i] = value[i+1];
-        }
-        value[size-1] = null;
-        size--;
-
-        return obj;
-    }
 
     // 获取
     public Object get(){
@@ -51,6 +34,12 @@ public class Queue {
         }
 
         Object obj = value[0];
+        // 剩余向前移动
+        for (int i = 0; i < size-1; i++) {
+            value[i] = value[i+1];
+        }
+        value[size-1] = null;
+        size--;
         return obj;
     }
 }
