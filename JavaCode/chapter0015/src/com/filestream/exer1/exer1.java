@@ -1,4 +1,4 @@
-package com.filestream.apply;
+package com.filestream.exer1;
 
 import org.junit.Test;
 
