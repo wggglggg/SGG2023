@@ -1,0 +1,662 @@
+4.1.2 Activityµƒ…˙√¸÷‹∆⁄
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.367304] ACPI: OSL: Resource conflict; ACPI support missing from driver?
+Fri Apr 28 06:07:16 2023 kern.warn kernel: [    0.367403] lpc_ich: Resource conflict(s) found affecting gpio_ich
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.367566] VMware PVSCSI driver - version 1.0.7.0-k
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.367648] hv_vmbus: registering driver hv_storvsc
+Fri Apr 28 06:07:16 2023 kern.debug kernel: [    0.367887] ahci 0000:00:1f.2: version 3.0
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.368040] ahci 0000:00:1f.2: AHCI 0001.0300 32 slots 4 ports 6 Gbps 0x10 impl SATA mode
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.368160] ahci 0000:00:1f.2: flags: 64bit ncq pm led clo pio slum part ems
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.368531] scsi host0: ahci
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.368681] scsi host1: ahci
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.368800] scsi host2: ahci
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.368942] scsi host3: ahci
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.369078] scsi host4: ahci
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.369148] ata1: DUMMY
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.369187] ata2: DUMMY
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.369224] ata3: DUMMY
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.369262] ata4: DUMMY
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.369301] ata5: SATA max UDMA/133 abar m2048@0xf7d3a000 port 0xf7d3a300 irq 26
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.369491] VMware vmxnet3 virtual NIC driver - version 1.7.0.0-k-NAPI
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.369593] hv_vmbus: registering driver hv_netvsc
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.369662] Fusion MPT base driver 3.04.20
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.369722] Copyright (c) 1999-2008 LSI Corporation
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.369795] Fusion MPT SPI Host driver 3.04.20
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.369867] Fusion MPT SAS Host driver 3.04.20
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.370045] ehci-pci 0000:00:1a.0: EHCI Host Controller
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.370126] ehci-pci 0000:00:1a.0: new USB bus registered, assigned bus number 1
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.370241] ehci-pci 0000:00:1a.0: debug port 2
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.374227] ehci-pci 0000:00:1a.0: irq 16, io mem 0xf7d3c000
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.398402] ehci-pci 0000:00:1a.0: USB 2.0 started, EHCI 1.00
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.398747] hub 1-0:1.0: USB hub found
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.398828] hub 1-0:1.0: 2 ports detected
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.399134] ehci-pci 0000:00:1d.0: EHCI Host Controller
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.399216] ehci-pci 0000:00:1d.0: new USB bus registered, assigned bus number 2
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.399329] ehci-pci 0000:00:1d.0: debug port 2
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.403311] ehci-pci 0000:00:1d.0: irq 23, io mem 0xf7d3b000
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.428413] ehci-pci 0000:00:1d.0: USB 2.0 started, EHCI 1.00
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.428696] hub 2-0:1.0: USB hub found
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.428773] hub 2-0:1.0: 2 ports detected
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.429128] xhci_hcd 0000:00:14.0: xHCI Host Controller
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.429209] xhci_hcd 0000:00:14.0: new USB bus registered, assigned bus number 3
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.430369] xhci_hcd 0000:00:14.0: hcc params 0x200077c1 hci version 0x100 quirks 0x0000000000009810
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.430635] xhci_hcd 0000:00:14.0: xHCI Host Controller
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.430713] xhci_hcd 0000:00:14.0: new USB bus registered, assigned bus number 4
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.430818] xhci_hcd 0000:00:14.0: Host supports USB 3.0 SuperSpeed
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.431069] hub 3-0:1.0: USB hub found
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.431152] hub 3-0:1.0: 10 ports detected
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.432917] hub 4-0:1.0: USB hub found
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.432981] hub 4-0:1.0: 2 ports detected
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.433328] usbcore: registered new interface driver usb-storage
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.433441] i8042: PNP: No PS/2 controller found.
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.433510] hv_vmbus: registering driver hyperv_keyboard
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.433601] rtc_cmos 00:02: RTC can wake from S4
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.433878] rtc_cmos 00:02: registered as rtc0
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.433973] rtc_cmos 00:02: setting system clock to 2023-04-27T22:07:05 UTC (1682633225)
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.434096] rtc_cmos 00:02: alarms up to one month, y3k, 242 bytes nvram
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.434365] intel_pstate: Intel P-state driver initializing
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.434541] sdhci: Secure Digital Host Controller Interface driver
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.434657] sdhci: Copyright(c) Pierre Ossman
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.435066] efifb: probing for efifb
+Fri Apr 28 06:07:16 2023 kern.warn kernel: [    0.435167] pmd_set_huge: Cannot satisfy [mem 0xe0000000-0xe0200000] with a huge-page mapping due to MTRR override.
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.435409] efifb: framebuffer at 0xe0000000, using 3072k, total 3072k
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.435553] efifb: mode is 1024x768x32, linelength=4096, pages=1
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.435687] efifb: scrolling: redraw
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.435769] efifb: Truecolor: size=8:8:8:8, shift=24:16:8:0
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.436966] Console: switching to colour frame buffer device 128x48
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.438012] fb0: EFI VGA frame buffer device
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.438159] hid: raw HID events driver (C) Jiri Kosina
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.438323] hv_vmbus: registering driver hid_hyperv
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.438493] usbcore: registered new interface driver usbhid
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.438595] usbhid: USB HID core driver
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.438680] usbcore: registered new interface driver rts5139
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.438823] hv_utils: Registering HyperV Utility Driver
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.438914] hv_vmbus: registering driver hv_utils
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.438997] hv_vmbus: registering driver hv_balloon
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.439255] NET: Registered PF_INET6 protocol family
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.439815] Segment Routing with IPv6
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.439943] In-situ OAM (IOAM) with IPv6
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.440090] NET: Registered PF_PACKET protocol family
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.440234] bridge: filtering via arp/ip/ip6tables is no longer available by default. Update your scripts to load br_netfilter if you need this.
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.440542] 8021q: 802.1Q VLAN Support v1.8
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.440712] NET: Registered PF_VSOCK protocol family
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.440968] microcode: sig=0x306c3, pf=0x2, revision=0x1d
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.441061] microcode: Microcode Update Driver: v2.2.
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.441066] IPI shorthand broadcast: enabled
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.441236] sched_clock: Marking stable (425686014, 13952732)->(449628103, -9989357)
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.698507] usb 1-1: new high-speed USB device number 2 using ehci-pci
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.700469] ata5: SATA link up 3.0 Gbps (SStatus 123 SControl 300)
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.702507] ata5.00: ATA-8: FORESEE B100M128G, M1001C, max UDMA/133
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.703766] ata5.00: 247463936 sectors, multi 0: LBA48
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.706015] ata5.00: configured for UDMA/133
+Fri Apr 28 06:07:16 2023 kern.notice kernel: [    0.707451] scsi 4:0:0:0: Direct-Access     ATA      FORESEE B100M128 1C   PQ: 0 ANSI: 5
+Fri Apr 28 06:07:16 2023 kern.notice kernel: [    0.710053] sd 4:0:0:0: [sda] 247463936 512-byte logical blocks: (127 GB/118 GiB)
+Fri Apr 28 06:07:16 2023 kern.notice kernel: [    0.710782] sd 4:0:0:0: [sda] Write Protect is off
+Fri Apr 28 06:07:16 2023 kern.debug kernel: [    0.712055] sd 4:0:0:0: [sda] Mode Sense: 00 3a 00 00
+Fri Apr 28 06:07:16 2023 kern.notice kernel: [    0.712191] sd 4:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.713763] sd 4:0:0:0: [sda] Preferred minimum I/O size 512 bytes
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.717381]  sda: sda1 sda2 sda3 sda128
+Fri Apr 28 06:07:16 2023 kern.notice kernel: [    0.717898] sd 4:0:0:0: [sda] Attached SCSI disk
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.722060] VFS: Mounted root (squashfs filesystem) readonly on device 8:2.
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.722776] Freeing unused kernel image (initmem) memory: 1220K
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.738419] usb 2-1: new high-speed USB device number 2 using ehci-pci
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.758450] Write protecting the kernel read-only data: 18432k
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.759988] Freeing unused kernel image (text/rodata gap) memory: 2044K
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.761120] Freeing unused kernel image (rodata/data gap) memory: 1092K
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.761978] Run /sbin/init as init process
+Fri Apr 28 06:07:16 2023 kern.debug kernel: [    0.762766]   with arguments:
+Fri Apr 28 06:07:16 2023 kern.debug kernel: [    0.762767]     /sbin/init
+Fri Apr 28 06:07:16 2023 kern.debug kernel: [    0.762769]   with environment:
+Fri Apr 28 06:07:16 2023 kern.debug kernel: [    0.762770]     HOME=/
+Fri Apr 28 06:07:16 2023 kern.debug kernel: [    0.762772]     TERM=linux
+Fri Apr 28 06:07:16 2023 kern.debug kernel: [    0.762773]     BOOT_IMAGE=/boot/vmlinuz
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.899108] hub 1-1:1.0: USB hub found
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.900118] hub 1-1:1.0: 4 ports detected
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.995079] hub 2-1:1.0: USB hub found
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    0.995762] hub 2-1:1.0: 6 ports detected
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    1.429078] tsc: Refined TSC clocksource calibration: 2494.224 MHz
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    1.429541] clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x23f3e9a353a, max_idle_ns: 440795330815 ns
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    1.430139] clocksource: Switched to clocksource tsc
+Fri Apr 28 06:07:16 2023 user.info kernel: [    1.618933] init: Console is alive
+Fri Apr 28 06:07:16 2023 user.info kernel: [    1.627764] kmodloader: loading kernel modules from /etc/modules-boot.d/*
+Fri Apr 28 06:07:16 2023 kern.notice kernel: [    1.695502] Key type encrypted registered
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    1.702542] Button Hotplug driver version 0.4.1
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    1.704477] raid6: skipped pq benchmark and selected sse2x4
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    1.705010] raid6: using ssse3x2 recovery algorithm
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    1.705851] xor: measuring software checksum speed
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    1.707642]    prefetch64-sse  : 10581 MB/sec
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    1.709367]    generic_sse     : 11581 MB/sec
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    1.710056] xor: using function: generic_sse (11581 MB/sec)
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    1.719594] Btrfs loaded, crc32c=crc32c-generic, zoned=no, fsverity=no
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    1.722978] igb: Intel(R) Gigabit Ethernet Network Driver
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    1.723569] igb: Copyright (c) 2007-2014 Intel Corporation.
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    1.726002] sdhci-pltfm: SDHCI platform and OF driver helper
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    1.727114] usbcore: registered new interface driver uas
+Fri Apr 28 06:07:16 2023 user.info kernel: [    1.727801] kmodloader: done loading kernel modules from /etc/modules-boot.d/*
+Fri Apr 28 06:07:16 2023 user.info kernel: [    1.730644] init: - preinit -
+Fri Apr 28 06:07:16 2023 kern.notice kernel: [    4.648372] random: crng init done
+Fri Apr 28 06:07:16 2023 user.info kernel: [    7.816414] mount_root: loading kmods from internal overlay
+Fri Apr 28 06:07:16 2023 user.info kernel: [    7.824272] kmodloader: loading kernel modules from //etc/modules-boot.d/*
+Fri Apr 28 06:07:16 2023 user.info kernel: [    7.826572] kmodloader: done loading kernel modules from //etc/modules-boot.d/*
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    7.936508] loop0: detected capacity change from 0 to 327680
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    7.968447] loop0: detected capacity change from 327680 to 47872
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    8.027240] EXT4-fs (loop0): recovery complete
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    8.031367] EXT4-fs (loop0): mounted filesystem with ordered data mode. Quota mode: disabled.
+Fri Apr 28 06:07:16 2023 user.info kernel: [    8.031955] block: attempting to load /tmp/ext4_cfg/upper/etc/config/fstab
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    8.040334] EXT4-fs (sda3): mounted filesystem with ordered data mode. Quota mode: disabled.
+Fri Apr 28 06:07:16 2023 user.err kernel: [    8.042911] block: extroot: UUID mismatch (root: 8cb0d1de-d32226d8-8c888f57-87f90856, overlay: 45c8357d-c0670f94-2d9f4800-04417f6c)
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    8.059079] EXT4-fs (sda3): unmounting filesystem.
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    8.081285] EXT4-fs (loop0): unmounting filesystem.
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    8.098105] loop0: detected capacity change from 0 to 327680
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    8.138495] loop0: detected capacity change from 327680 to 47872
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    8.145239] EXT4-fs (loop0): mounted filesystem with ordered data mode. Quota mode: disabled.
+Fri Apr 28 06:07:16 2023 user.info kernel: [    8.146354] mount_root: loading kmods from internal overlay
+Fri Apr 28 06:07:16 2023 user.info kernel: [    8.152957] kmodloader: loading kernel modules from /tmp/overlay/upper/etc/modules-boot.d/*
+Fri Apr 28 06:07:16 2023 user.info kernel: [    8.154404] kmodloader: done loading kernel modules from /tmp/overlay/upper/etc/modules-boot.d/*
+Fri Apr 28 06:07:16 2023 user.info kernel: [    8.165288] block: attempting to load /tmp/ext4_cfg/upper/etc/config/fstab
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    8.172953] EXT4-fs (sda3): mounted filesystem with ordered data mode. Quota mode: disabled.
+Fri Apr 28 06:07:16 2023 user.err kernel: [    8.175684] block: extroot: UUID mismatch (root: 8cb0d1de-d32226d8-8c888f57-87f90856, overlay: 45c8357d-c0670f94-2d9f4800-04417f6c)
+Fri Apr 28 06:07:16 2023 kern.info kernel: [    8.189459] EXT4-fs (sda3): unmounting filesystem.
+Fri Apr 28 06:07:16 2023 user.info kernel: [    8.203731] mount_root: switching to ext4 overlay
+Fri Apr 28 06:07:16 2023 kern.warn kernel: [    8.210162] overlayfs: null uuid detected in lower fs '/', falling back to xino=off,index=off,nfs_export=off.
+Fri Apr 28 06:07:16 2023 kern.warn kernel: [    8.421018] FAT-fs (sda1): Volume was not properly unmounted. Some data may be corrupt. Please run fsck.
+Fri Apr 28 06:07:16 2023 user.warn kernel: [    8.435112] urandom-seed: Seeding with /etc/urandom.seed
+Fri Apr 28 06:07:16 2023 user.info kernel: [    8.650405] procd: - early -
+Fri Apr 28 06:07:16 2023 kern.err kernel: [    8.877141] squashfs: Unknown parameter 'discard'
+Fri Apr 28 06:07:16 2023 user.info kernel: [    9.254153] procd: - ubus -
+Fri Apr 28 06:07:16 2023 user.info kernel: [    9.405356] procd: - init -
+Fri Apr 28 06:07:16 2023 user.info kernel: [   10.013405] kmodloader: loading kernel modules from /etc/modules.d/*
+Fri Apr 28 06:07:16 2023 kern.info kernel: [   10.038648] NET: Registered PF_ALG protocol family
+Fri Apr 28 06:07:16 2023 kern.info kernel: [   10.045800] device-mapper: ioctl: 4.47.0-ioctl (2022-07-28) initialised: dm-devel@redhat.com
+Fri Apr 28 06:07:16 2023 kern.info kernel: [   10.048657] ntfs3: Max link count 4000
+Fri Apr 28 06:07:16 2023 kern.info kernel: [   10.049148] ntfs3: Enabled Linux POSIX ACLs support
+Fri Apr 28 06:07:16 2023 kern.notice kernel: [   10.049644] ntfs3: Warning: Activated 64 bits per cluster. Windows does not support this
+Fri Apr 28 06:07:16 2023 kern.info kernel: [   10.050189] ntfs3: Read-only LZX/Xpress compression included
+Fri Apr 28 06:07:16 2023 kern.info kernel: [   10.051615] NET: Registered PF_KEY protocol family
+Fri Apr 28 06:07:16 2023 kern.info kernel: [   10.052574] Initializing XFRM netlink socket
+Fri Apr 28 06:07:16 2023 kern.info kernel: [   10.053698] tun: Universal TUN/TAP device driver, 1.6
+Fri Apr 28 06:07:16 2023 kern.info kernel: [   10.059563] sit: IPv6, IPv4 and MPLS over IPv4 tunneling driver
+Fri Apr 28 06:07:16 2023 kern.info kernel: [   10.063081] e1000: Intel(R) PRO/1000 Network Driver
+Fri Apr 28 06:07:16 2023 kern.info kernel: [   10.063591] e1000: Copyright (c) 1999-2006 Intel Corporation.
+Fri Apr 28 06:07:16 2023 kern.info kernel: [   10.064580] igbvf: Intel(R) Gigabit Virtual Function Network Driver
+Fri Apr 28 06:07:16 2023 kern.info kernel: [   10.065104] igbvf: Copyright (c) 2009 - 2012 Intel Corporation.
+Fri Apr 28 06:07:16 2023 kern.info kernel: [   10.066682] ixgbe: Intel(R) 10 Gigabit PCI Express Network Driver
+Fri Apr 28 06:07:16 2023 kern.info kernel: [   10.067206] ixgbe: Copyright (c) 1999-2016 Intel Corporation.
+Fri Apr 28 06:07:16 2023 kern.info kernel: [   10.077297] cryptodev: driver 1.12 loaded.
+Fri Apr 28 06:07:16 2023 kern.info kernel: [   10.078220] i2c_dev: i2c /dev entries driver
+Fri Apr 28 06:07:16 2023 kern.info kernel: [   10.080888] 8139too: 8139too Fast Ethernet driver 0.9.28
+Fri Apr 28 06:07:16 2023 kern.notice kernel: [   10.097727] Bridge firewalling registered
+Fri Apr 28 06:07:16 2023 kern.info kernel: [   10.101331] e1000e: Intel(R) PRO/1000 Network Driver
+Fri Apr 28 06:07:16 2023 kern.info kernel: [   10.101827] e1000e: Copyright(c) 1999 - 2015 Intel Corporation.
+Fri Apr 28 06:07:16 2023 kern.info kernel: [   10.102472] e1000e 0000:00:19.0: Interrupt Throttling Rate (ints/sec) set to simplified (2000-8000 ints) mode
+Fri Apr 28 06:07:16 2023 kern.info kernel: [   10.103029] e1000e 0000:00:19.0: Interrupt Mode set to 1
+Fri Apr 28 06:07:16 2023 kern.info kernel: [   10.185145] e1000e 0000:00:19.0 0000:00:19.0 (uninitialized): registered PHC clock
+Fri Apr 28 06:07:16 2023 kern.info kernel: [   10.259995] e1000e 0000:00:19.0 eth0: (PCI Express:2.5GT/s:Width x1) 00:23:24:a1:bb:2b
+Fri Apr 28 06:07:16 2023 kern.info kernel: [   10.260800] e1000e 0000:00:19.0 eth0: Intel(R) PRO/1000 Network Connection
+Fri Apr 28 06:07:16 2023 kern.info kernel: [   10.261578] e1000e 0000:00:19.0 eth0: MAC: 11, PHY: 12, PBA No: FFFFFF-0FF
+Fri Apr 28 06:07:16 2023 kern.info kernel: [   10.264749] i40e: Intel(R) Ethernet Connection XL710 Network Driver
+Fri Apr 28 06:07:16 2023 kern.info kernel: [   10.265506] i40e: Copyright (c) 2013 - 2019 Intel Corporation.
+Fri Apr 28 06:07:16 2023 kern.info kernel: [   10.267789] iavf: Intel(R) Ethernet Adaptive Virtual Function Network Driver
+Fri Apr 28 06:07:16 2023 kern.info kernel: [   10.268792] Copyright (c) 2013 - 2018 Intel Corporation.
+Fri Apr 28 06:07:16 2023 kern.info kernel: [   10.270753] Intel(R) 2.5G Ethernet Linux Driver
+Fri Apr 28 06:07:16 2023 kern.info kernel: [   10.271673] Copyright(c) 2018 Intel Corporation.
+Fri Apr 28 06:07:16 2023 kern.info kernel: [   10.295994] usbcore: registered new interface driver r8152
+Fri Apr 28 06:07:16 2023 kern.info kernel: [   10.297481] r8168 Gigabit Ethernet driver 8.051.02-NAPI loaded
+Fri Apr 28 06:07:16 2023 kern.info kernel: [   10.298002] r8168 0000:02:00.0: enabling device (0000 -> 0003)
+Fri Apr 28 06:07:16 2023 kern.info kernel: [   10.319803] r8168: This product is covered by one or more of the following patents: US6,570,884, US6,115,776, and US6,327,625.
+Fri Apr 28 06:07:16 2023 kern.warn kernel: [   10.320759] r8168  Copyright (C) 2022 Realtek NIC software team <nicfae@realtek.com>
+Fri Apr 28 06:07:16 2023 kern.warn kernel: [   10.320759]  This program comes with ABSOLUTELY NO WARRANTY; for details, please see <http://www.gnu.org/licenses/>.
+Fri Apr 28 06:07:16 2023 kern.warn kernel: [   10.320759]  This is free software, and you are welcome to redistribute it under certain conditions; see <http://www.gnu.org/licenses/>.
+Fri Apr 28 06:07:16 2023 kern.info kernel: [   10.323123] usbcore: registered new interface driver rtl8150
+Fri Apr 28 06:07:16 2023 kern.info kernel: [   10.324728] usbcore: registered new interface driver ums-alauda
+Fri Apr 28 06:07:16 2023 kern.info kernel: [   10.325360] usbcore: registered new interface driver ums-cypress
+Fri Apr 28 06:07:16 2023 kern.info kernel: [   10.325997] usbcore: registered new interface driver ums-datafab
+Fri Apr 28 06:07:16 2023 kern.info kernel: [   10.326623] usbcore: registered new interface driver ums-freecom
+Fri Apr 28 06:07:16 2023 kern.info kernel: [   10.327248] usbcore: registered new interface driver ums-isd200
+Fri Apr 28 06:07:16 2023 kern.info kernel: [   10.327869] usbcore: registered new interface driver ums-jumpshot
+Fri Apr 28 06:07:16 2023 kern.info kernel: [   10.328477] usbcore: registered new interface driver ums-karma
+Fri Apr 28 06:07:16 2023 kern.info kernel: [   10.329116] usbcore: registered new interface driver ums-sddr09
+Fri Apr 28 06:07:16 2023 kern.info kernel: [   10.329724] usbcore: registered new interface driver ums-sddr55
+Fri Apr 28 06:07:16 2023 kern.info kernel: [   10.330320] usbcore: registered new interface driver ums-usbat
+Fri Apr 28 06:07:16 2023 kern.info kernel: [   10.337337] xt_time: kernel timezone is -0000
+Fri Apr 28 06:07:16 2023 kern.info kernel: [   10.338740] usbcore: registered new interface driver ax88179_178a
+Fri Apr 28 06:07:16 2023 kern.info kernel: [   10.340789] PPP generic driver version 2.4.2
+Fri Apr 28 06:07:16 2023 kern.info kernel: [   10.341435] PPP MPPE Compression module registered
+Fri Apr 28 06:07:16 2023 kern.info kernel: [   10.342146] NET: Registered PF_PPPOX protocol family
+Fri Apr 28 06:07:16 2023 kern.info kernel: [   10.343693] wireguard: WireGuard 1.0.0 loaded. See www.wireguard.com for information.
+Fri Apr 28 06:07:16 2023 kern.info kernel: [   10.344202] wireguard: Copyright (C) 2015-2019 Jason A. Donenfeld <Jason@zx2c4.com>. All Rights Reserved.
+Fri Apr 28 06:07:16 2023 kern.info kernel: [   10.376494] i915 0000:00:02.0: [drm] PipeC fused off
+Fri Apr 28 06:07:16 2023 kern.info kernel: [   10.377138] Console: switching to colour dummy device 80x25
+Fri Apr 28 06:07:16 2023 kern.info kernel: [   10.399406] [drm] Initialized i915 1.6.0 20201103 for 0000:00:02.0 on minor 0
+Fri Apr 28 06:07:16 2023 kern.info kernel: [   10.401028] ACPI: video: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+Fri Apr 28 06:07:16 2023 kern.info kernel: [   10.401398] input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/input/input2
+Fri Apr 28 06:07:16 2023 kern.info kernel: [   10.748422] i915 0000:00:02.0: [drm] Cannot find any crtc or sizes
+Fri Apr 28 06:07:16 2023 user.info kernel: [   10.767449] kmodloader: done loading kernel modules from /etc/modules.d/*
+Fri Apr 28 06:07:16 2023 kern.info kernel: [   11.108413] i915 0000:00:02.0: [drm] Cannot find any crtc or sizes
+Fri Apr 28 06:07:16 2023 kern.info kernel: [   11.448420] i915 0000:00:02.0: [drm] Cannot find any crtc or sizes
+Fri Apr 28 06:07:16 2023 daemon.notice procd: /etc/rc.d/S13openssl: Generating engines.cnf
+Fri Apr 28 06:07:16 2023 daemon.notice procd: /etc/rc.d/S13openssl: Enabling engine devcrypto
+Fri Apr 28 06:07:17 2023 user.notice dnsmasq: DNS rebinding protection is active, will discard upstream RFC1918 responses!
+Fri Apr 28 06:07:17 2023 user.notice dnsmasq: Allowing 127.0.0.0/8 responses
+Fri Apr 28 06:07:18 2023 user.notice : Added device handler type: 8021ad
+Fri Apr 28 06:07:18 2023 user.notice : Added device handler type: 8021q
+Fri Apr 28 06:07:18 2023 user.notice : Added device handler type: macvlan
+Fri Apr 28 06:07:18 2023 user.notice : Added device handler type: veth
+Fri Apr 28 06:07:18 2023 user.notice : Added device handler type: bridge
+Fri Apr 28 06:07:18 2023 user.notice : Added device handler type: Network device
+Fri Apr 28 06:07:18 2023 user.notice : Added device handler type: tunnel
+Fri Apr 28 06:07:18 2023 daemon.notice netifd: Interface 'WG0' is setting up now
+Fri Apr 28 06:07:18 2023 daemon.notice procd: /etc/rc.d/S50autoreboot: Command failed: ubus call service delete { "name": "cron" } (Not found)
+Fri Apr 28 06:07:18 2023 daemon.notice procd: /etc/rc.d/S50autoreboot: Auto REBOOT has started.
+Fri Apr 28 06:07:18 2023 cron.err crond[2304]: crond (busybox 1.36.0) started, log level 8
+Fri Apr 28 06:07:18 2023 daemon.notice netifd: Interface 'lan' is enabled
+Fri Apr 28 06:07:18 2023 daemon.notice netifd: Interface 'loopback' is enabled
+Fri Apr 28 06:07:18 2023 daemon.notice netifd: Interface 'loopback' is setting up now
+Fri Apr 28 06:07:18 2023 daemon.notice netifd: Interface 'loopback' is now up
+Fri Apr 28 06:07:18 2023 kern.info kernel: [   14.090413] e1000e 0000:00:19.0 eth0: MSI interrupt test failed, using legacy interrupt.
+Fri Apr 28 06:07:18 2023 kern.info kernel: [   14.092002] eth1: 0xffffc90000095000, 00:e8:5c:68:00:0c, IRQ 29
+Fri Apr 28 06:07:18 2023 daemon.notice netifd: Interface 'wan' is enabled
+Fri Apr 28 06:07:18 2023 daemon.notice netifd: Interface 'wan6' is enabled
+Fri Apr 28 06:07:18 2023 daemon.notice netifd: Network device 'lo' link is up
+Fri Apr 28 06:07:18 2023 daemon.notice netifd: Interface 'loopback' has link connectivity
+Fri Apr 28 06:07:18 2023 daemon.notice netifd: Interface 'WG0' is now up
+Fri Apr 28 06:07:18 2023 daemon.notice netifd: Network device 'WG0' link is up
+Fri Apr 28 06:07:19 2023 user.err : error connecting to sec-mod socket 'ocserv-socket.3715523b': No such file or directory
+Fri Apr 28 06:07:19 2023 daemon.info ocserv[2680]: sec-mod: reading supplemental config from files
+Fri Apr 28 06:07:19 2023 daemon.info ocserv[2680]: sec-mod: sec-mod initialized (socket: /var/lib/ocserv/ocserv-socket.3715523b.0)
+Fri Apr 28 06:07:19 2023 user.notice ucitrack: Setting up /etc/config/network reload dependency on /etc/config/dhcp
+Fri Apr 28 06:07:19 2023 user.notice ucitrack: Setting up /etc/config/network reload dependency on /etc/config/radvd
+Fri Apr 28 06:07:19 2023 user.notice ucitrack: Setting up /etc/config/wireless reload dependency on /etc/config/network
+Fri Apr 28 06:07:19 2023 daemon.info avahi-daemon[2690]: Found user 'nobody' (UID 65534) and group 'nogroup' (GID 65534).
+Fri Apr 28 06:07:19 2023 daemon.info avahi-daemon[2690]: Successfully dropped root privileges.
+Fri Apr 28 06:07:19 2023 daemon.info avahi-daemon[2690]: avahi-daemon 0.8 starting up.
+Fri Apr 28 06:07:19 2023 daemon.warn avahi-daemon[2690]: WARNING: No NSS support for mDNS detected, consider installing nss-mdns!
+Fri Apr 28 06:07:19 2023 daemon.info avahi-daemon[2690]: No service file found in /etc/avahi/services.
+Fri Apr 28 06:07:19 2023 daemon.info avahi-daemon[2690]: Joining mDNS multicast group on interface lo.IPv6 with address ::1.
+Fri Apr 28 06:07:19 2023 daemon.info avahi-daemon[2690]: New relevant interface lo.IPv6 for mDNS.
+Fri Apr 28 06:07:19 2023 daemon.info avahi-daemon[2690]: Joining mDNS multicast group on interface lo.IPv4 with address 127.0.0.1.
+Fri Apr 28 06:07:19 2023 daemon.info avahi-daemon[2690]: New relevant interface lo.IPv4 for mDNS.
+Fri Apr 28 06:07:19 2023 daemon.info avahi-daemon[2690]: Network interface enumeration completed.
+Fri Apr 28 06:07:19 2023 daemon.info avahi-daemon[2690]: Registering new address record for ::1 on lo.*.
+Fri Apr 28 06:07:19 2023 daemon.info avahi-daemon[2690]: Registering new address record for 127.0.0.1 on lo.IPv4.
+Fri Apr 28 06:07:19 2023 daemon.info avahi-daemon[2690]: Registering HINFO record with values 'X86_64'/'LINUX'.
+Fri Apr 28 06:07:19 2023 user.notice ucitrack: Setting up /etc/config/firewall reload dependency on /etc/config/luci-splash
+Fri Apr 28 06:07:19 2023 user.notice ucitrack: Setting up /etc/config/firewall reload dependency on /etc/config/qos
+Fri Apr 28 06:07:19 2023 user.notice ucitrack: Setting up /etc/config/firewall reload dependency on /etc/config/miniupnpd
+Fri Apr 28 06:07:19 2023 user.notice ucitrack: Setting up /etc/config/dhcp reload dependency on /etc/config/odhcpd
+Fri Apr 28 06:07:19 2023 user.notice ucitrack: Setting up /etc/config/fstab reload trigger for non-procd /etc/init.d/fstab
+Fri Apr 28 06:07:19 2023 user.notice ucitrack: Setting up /etc/config/system reload trigger for non-procd /etc/init.d/led
+Fri Apr 28 06:07:19 2023 user.notice ucitrack: Setting up /etc/config/system reload dependency on /etc/config/luci_statistics
+Fri Apr 28 06:07:19 2023 user.notice ucitrack: Setting up /etc/config/system reload dependency on /etc/config/dhcp
+Fri Apr 28 06:07:20 2023 user.notice ucitrack: Setting up /etc/config/aliddns reload trigger for non-procd /etc/init.d/aliddns
+Fri Apr 28 06:07:20 2023 user.notice ucitrack: Setting up /etc/config/arpbind reload trigger for non-procd /etc/init.d/arpbind
+Fri Apr 28 06:07:20 2023 user.notice ucitrack: Setting up /etc/config/mia reload trigger for non-procd /etc/init.d/mia
+Fri Apr 28 06:07:20 2023 user.notice ucitrack: Setting up /etc/config/openclash reload trigger for non-procd /etc/init.d/openclash
+Fri Apr 28 06:07:20 2023 user.notice ucitrack: Setting up /etc/config/passwall reload trigger for non-procd /etc/init.d/passwall
+Fri Apr 28 06:07:20 2023 user.notice ucitrack: Setting up /etc/config/passwall_server reload trigger for non-procd /etc/init.d/passwall_server
+Fri Apr 28 06:07:20 2023 user.notice ucitrack: Setting up /etc/config/passwall2 reload trigger for non-procd /etc/init.d/passwall2
+Fri Apr 28 06:07:20 2023 user.notice ucitrack: Setting up /etc/config/passwall2_server reload trigger for non-procd /etc/init.d/passwall2_server
+Fri Apr 28 06:07:20 2023 user.notice ucitrack: Setting up /etc/config/shadowsocksr reload trigger for non-procd /etc/init.d/shadowsocksr
+Fri Apr 28 06:07:20 2023 user.notice ucitrack: Setting up non-init /etc/config/syncdial reload handler: /bin/genwancfg
+Fri Apr 28 06:07:20 2023 user.notice ucitrack: Setting up /etc/config/turboacc reload trigger for non-procd /etc/init.d/turboacc
+Fri Apr 28 06:07:20 2023 user.notice ucitrack: Setting up /etc/config/unblockmusic reload trigger for non-procd /etc/init.d/unblockmusic
+Fri Apr 28 06:07:20 2023 user.notice ucitrack: Setting up /etc/config/vlmcsd reload trigger for non-procd /etc/init.d/kms
+Fri Apr 28 06:07:20 2023 user.notice ucitrack: Setting up /etc/config/vsftpd reload trigger for non-procd /etc/init.d/vsftpd
+Fri Apr 28 06:07:20 2023 user.notice ucitrack: Setting up /etc/config/vssr reload trigger for non-procd /etc/init.d/vssr
+Fri Apr 28 06:07:20 2023 user.notice ucitrack: Setting up /etc/config/xlnetacc reload trigger for non-procd /etc/init.d/xlnetacc
+Fri Apr 28 06:07:20 2023 daemon.notice procd: /etc/rc.d/S90ipsec: Command failed: ubus call service delete { "name": "ipsec" } (Not found)
+Fri Apr 28 06:07:20 2023 daemon.notice procd: /etc/rc.d/S90kms: KMS Server has started.
+Fri Apr 28 06:07:20 2023 daemon.notice procd: /etc/rc.d/S90turboacc: net.ipv4.tcp_congestion_control = bbr
+Fri Apr 28 06:07:20 2023 daemon.notice procd: /etc/rc.d/S90turboacc: killall: dnscache: no process killed
+Fri Apr 28 06:07:20 2023 daemon.notice procd: /etc/rc.d/S90turboacc: sh: you need to specify whom to kill
+Fri Apr 28 06:07:20 2023 daemon.notice procd: /etc/rc.d/S90turboacc: Stop DNS Caching
+Fri Apr 28 06:07:20 2023 daemon.notice procd: /etc/rc.d/S90turboacc: DNSMASQ change
+Fri Apr 28 06:07:20 2023 daemon.info avahi-daemon[2690]: Server startup complete. Host name is OpenWrt.local. Local service cookie is 3626413840.
+Fri Apr 28 06:07:21 2023 daemon.err dockerd[2027]: time="2023-04-27T22:07:21.096190777Z" level=warning msg="grpc: addrConn.createTransport failed to connect to {unix:///var/run/docker/containerd/containerd.sock  <nil> 0 <nil>}. Err :connection error: desc = \"transport: error while dialing: dial unix:///var/run/docker/containerd/containerd.sock: timeout\". Reconnecting..." module=grpc
+Fri Apr 28 06:07:21 2023 daemon.err dockerd[2027]: time="2023-04-27T22:07:21Z" level=warning msg="containerd config version `1` has been deprecated and will be removed in containerd v2.0, please switch to version `2`, see https://github.com/containerd/containerd/blob/main/docs/PLUGINS.md#version-header"
+Fri Apr 28 06:07:21 2023 daemon.err modprobe: failed to find a module named aufs
+Fri Apr 28 06:07:21 2023 daemon.err dockerd[2027]: time="2023-04-27T22:07:21.575059162Z" level=warning msg="failed to load plugin io.containerd.snapshotter.v1.devmapper" error="devmapper not configured"
+Fri Apr 28 06:07:21 2023 daemon.err dockerd[2027]: time="2023-04-27T22:07:21.575477348Z" level=warning msg="could not use snapshotter devmapper in metadata plugin" error="devmapper not configured"
+Fri Apr 28 06:07:21 2023 daemon.err dockerd[2027]: time="2023-04-27T22:07:21.576640549Z" level=error msg="failed to initialize a tracing processor \"otlp\"" error="no OpenTelemetry endpoint: skip plugin"
+Fri Apr 28 06:07:21 2023 daemon.notice netifd: Network device 'eth0' link is up
+Fri Apr 28 06:07:21 2023 daemon.notice netifd: Interface 'lan' has link connectivity
+Fri Apr 28 06:07:21 2023 daemon.notice netifd: Interface 'lan' is setting up now
+Fri Apr 28 06:07:21 2023 daemon.info avahi-daemon[2690]: Joining mDNS multicast group on interface eth0.IPv4 with address 192.168.123.1.
+Fri Apr 28 06:07:21 2023 daemon.info avahi-daemon[2690]: New relevant interface eth0.IPv4 for mDNS.
+Fri Apr 28 06:07:21 2023 daemon.info avahi-daemon[2690]: Registering new address record for 192.168.123.1 on eth0.IPv4.
+Fri Apr 28 06:07:21 2023 daemon.notice netifd: Interface 'lan' is now up
+Fri Apr 28 06:07:21 2023 kern.info kernel: [   17.090604] e1000e 0000:00:19.0 eth0: NIC Link is Up 1000 Mbps Full Duplex, Flow Control: None
+Fri Apr 28 06:07:21 2023 kern.info kernel: [   17.090767] IPv6: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+Fri Apr 28 06:07:21 2023 cron.err crond[4359]: crond (busybox 1.36.0) started, log level 8
+Fri Apr 28 06:07:21 2023 daemon.info samba4-server: io_uring module found, enabling VFS io_uring. (also needs Kernel 5.4+ Support)
+Fri Apr 28 06:07:21 2023 daemon.info samba4-server: io_uring module found, enabling VFS io_uring. (also needs Kernel 5.4+ Support)
+Fri Apr 28 06:07:22 2023 daemon.info samba4-server: io_uring module found, enabling VFS io_uring. (also needs Kernel 5.4+ Support)
+Fri Apr 28 06:07:22 2023 kern.err kernel: [   17.697321] overlayfs: filesystem on '/opt/check-overlayfs-support4180627982/upper' not supported as upperdir
+Fri Apr 28 06:07:22 2023 daemon.err dockerd[2027]: time="2023-04-27T22:07:22.260921443Z" level=error msg="failed to mount overlay: invalid argument" storage-driver=overlay2
+Fri Apr 28 06:07:22 2023 daemon.err dockerd[2027]: time="2023-04-27T22:07:22.261860632Z" level=error msg="exec: \"fuse-overlayfs\": executable file not found in $PATH" storage-driver=fuse-overlayfs
+Fri Apr 28 06:07:22 2023 daemon.err modprobe: failed to find a module named aufs
+Fri Apr 28 06:07:22 2023 daemon.err dockerd[2027]: time="2023-04-27T22:07:22.325472398Z" level=error msg="AUFS was not found in /proc/filesystems" storage-driver=aufs
+Fri Apr 28 06:07:22 2023 kern.err kernel: [   17.808092] overlayfs: filesystem on '/opt/check-overlayfs-support2798977276/upper' not supported as upperdir
+Fri Apr 28 06:07:22 2023 daemon.err dockerd[2027]: time="2023-04-27T22:07:22.326802442Z" level=error msg="failed to mount overlay: invalid argument" storage-driver=overlay
+Fri Apr 28 06:07:22 2023 daemon.err dockerd[2027]: time="2023-04-27T22:07:22.326828589Z" level=error msg="Failed to built-in GetDriver graph devicemapper /opt"
+Fri Apr 28 06:07:22 2023 daemon.err dockerd[2027]: time="2023-04-27T22:07:22.472060519Z" level=warning msg="Your kernel does not support cgroup blkio weight"
+Fri Apr 28 06:07:22 2023 daemon.err dockerd[2027]: time="2023-04-27T22:07:22.472084015Z" level=warning msg="Your kernel does not support cgroup blkio weight_device"
+Fri Apr 28 06:07:22 2023 daemon.info modprobe: nf_conntrack is already loaded
+Fri Apr 28 06:07:22 2023 daemon.info modprobe: nf_conntrack_netlink is already loaded
+Fri Apr 28 06:07:22 2023 daemon.info avahi-daemon[2690]: Joining mDNS multicast group on interface docker0.IPv4 with address 172.17.0.1.
+Fri Apr 28 06:07:22 2023 daemon.info avahi-daemon[2690]: New relevant interface docker0.IPv4 for mDNS.
+Fri Apr 28 06:07:22 2023 daemon.info avahi-daemon[2690]: Registering new address record for 172.17.0.1 on docker0.IPv4.
+Fri Apr 28 06:07:22 2023 daemon.err odhcpd[2120]: Failed to send to ff02::1%lan@eth0 (Address not available)
+Fri Apr 28 06:07:22 2023 authpriv.info dropbear[5259]: Not backgrounding
+Fri Apr 28 06:07:23 2023 kern.info kernel: [   19.006938] traps: check[5331] general protection fault ip:8049007 sp:ff82be40 error:402 in check[8049000+1000]
+Fri Apr 28 06:07:23 2023 daemon.info avahi-daemon[2690]: Joining mDNS multicast group on interface eth0.IPv6 with address fe80::223:24ff:fea1:bb2b.
+Fri Apr 28 06:07:23 2023 daemon.info avahi-daemon[2690]: New relevant interface eth0.IPv6 for mDNS.
+Fri Apr 28 06:07:23 2023 daemon.info avahi-daemon[2690]: Registering new address record for fe80::223:24ff:fea1:bb2b on eth0.*.
+Fri Apr 28 06:07:23 2023 daemon.err nmbd[4824]: [2023/04/28 06:07:23.993727,  0] ../../lib/util/become_daemon.c:135(daemon_ready)
+Fri Apr 28 06:07:23 2023 daemon.err nmbd[4824]:   daemon_ready: daemon 'nmbd' finished starting up and ready to serve connections
+Fri Apr 28 06:07:24 2023 daemon.err smbd[4823]: [2023/04/28 06:07:24.091109,  0] ../../lib/util/become_daemon.c:135(daemon_ready)
+Fri Apr 28 06:07:24 2023 daemon.err smbd[4823]:   daemon_ready: daemon 'smbd' finished starting up and ready to serve connections
+Fri Apr 28 06:07:29 2023 kern.info kernel: [   24.720037] r8168: eth1: link up
+Fri Apr 28 06:07:29 2023 daemon.notice netifd: Network device 'eth1' link is up
+Fri Apr 28 06:07:29 2023 daemon.notice netifd: Interface 'wan' has link connectivity
+Fri Apr 28 06:07:29 2023 daemon.notice netifd: Interface 'wan' is setting up now
+Fri Apr 28 06:07:29 2023 daemon.notice netifd: Interface 'wan6' has link connectivity
+Fri Apr 28 06:07:29 2023 daemon.notice netifd: Interface 'wan6' is setting up now
+Fri Apr 28 06:07:29 2023 daemon.notice netifd: Interface 'wan6' is now up
+Fri Apr 28 06:07:29 2023 kern.info kernel: [   24.750121] IPv6: ADDRCONF(NETDEV_CHANGE): eth1: link becomes ready
+Fri Apr 28 06:07:29 2023 daemon.notice netifd: wan (5441): uci: Entry not found
+Fri Apr 28 06:07:29 2023 daemon.notice netifd: wan (5441): sh: out of range
+Fri Apr 28 06:07:29 2023 daemon.info pppd[5448]: Plugin pppoe.so loaded.
+Fri Apr 28 06:07:29 2023 daemon.info pppd[5448]: PPPoE plugin from pppd 2.4.9
+Fri Apr 28 06:07:29 2023 daemon.notice pppd[5448]: pppd 2.4.9 started by root, uid 0
+Fri Apr 28 06:07:30 2023 daemon.notice procd: /etc/rc.d/S99openclash: OpenClash Restart...
+Fri Apr 28 06:07:31 2023 daemon.info avahi-daemon[2690]: Joining mDNS multicast group on interface eth1.IPv6 with address fe80::2e8:5cff:fe68:c.
+Fri Apr 28 06:07:31 2023 daemon.info avahi-daemon[2690]: New relevant interface eth1.IPv6 for mDNS.
+Fri Apr 28 06:07:31 2023 daemon.info avahi-daemon[2690]: Registering new address record for fe80::2e8:5cff:fe68:c on eth1.*.
+Fri Apr 28 06:07:33 2023 cron.err crond[6260]: crond (busybox 1.36.0) started, log level 8
+Fri Apr 28 06:07:33 2023 daemon.notice procd: /etc/rc.d/S99openclash: OpenClash Already Stop!
+Fri Apr 28 06:07:33 2023 daemon.notice ttyd[6392]: [2023/04/28 06:07:33:7342] N: ttyd 1.6.3 (libwebsockets 4.3.2-20221001-510-g849ae160a)
+Fri Apr 28 06:07:33 2023 daemon.notice ttyd[6392]: [2023/04/28 06:07:33:7343] N: tty configuration:
+Fri Apr 28 06:07:33 2023 daemon.notice ttyd[6392]: [2023/04/28 06:07:33:7343] N:   start command: /usr/libexec/login.sh
+Fri Apr 28 06:07:33 2023 daemon.notice ttyd[6392]: [2023/04/28 06:07:33:7344] N:   close signal: SIGHUP (1)
+Fri Apr 28 06:07:33 2023 daemon.notice ttyd[6392]: [2023/04/28 06:07:33:7344] N:   terminal type: xterm-256color
+Fri Apr 28 06:07:33 2023 daemon.err ttyd[6392]: [2023/04/28 06:07:33:7350] E: lws_create_context: failed to load evlib_uv
+Fri Apr 28 06:07:33 2023 daemon.err ttyd[6392]: [2023/04/28 06:07:33:7350] E: libwebsockets context creation failed
+Fri Apr 28 06:07:33 2023 user.notice nlbwmon: Reloading nlbwmon due to ifup of loopback (lo)
+Fri Apr 28 06:07:33 2023 user.notice upnp daemon: external interface not found, not starting
+Fri Apr 28 06:07:34 2023 daemon.err miniupnpd[6730]: could not open lease file: /var/upnp.leases
+Fri Apr 28 06:07:34 2023 daemon.notice miniupnpd[6730]: HTTP listening on port 5000
+Fri Apr 28 06:07:34 2023 daemon.notice miniupnpd[6730]: Listening for NAT-PMP/PCP traffic on port 5351
+Fri Apr 28 06:07:38 2023 daemon.notice procd: /etc/rc.d/S99zerotier: disabled in config
+Fri Apr 28 06:07:40 2023 cron.err crond[7536]: crond (busybox 1.36.0) started, log level 8
+Fri Apr 28 06:07:40 2023 cron.err crond[8170]: crond (busybox 1.36.0) started, log level 8
+Fri Apr 28 06:07:40 2023 cron.err crond[8532]: crond (busybox 1.36.0) started, log level 8
+Fri Apr 28 06:07:41 2023 cron.err crond[9645]: crond (busybox 1.36.0) started, log level 8
+Fri Apr 28 06:07:43 2023 cron.err crond[10044]: crond (busybox 1.36.0) started, log level 8
+Fri Apr 28 06:07:43 2023 cron.err crond[10406]: crond (busybox 1.36.0) started, log level 8
+Fri Apr 28 06:07:43 2023 daemon.info procd: - init complete -
+Fri Apr 28 06:07:43 2023 kern.err kernel: [   39.044950] squashfs: Unknown parameter 'discard'
+Fri Apr 28 06:07:43 2023 kern.info kernel: [   39.045326] F2FS-fs (sda128): Magic Mismatch, valid(0xf2f52010) - read(0x89e45589)
+Fri Apr 28 06:07:43 2023 kern.err kernel: [   39.045449] F2FS-fs (sda128): Can't find valid F2FS filesystem in 1th superblock
+Fri Apr 28 06:07:43 2023 kern.info kernel: [   39.045715] F2FS-fs (sda128): Magic Mismatch, valid(0xf2f52010) - read(0x2e48937b)
+Fri Apr 28 06:07:43 2023 kern.err kernel: [   39.045832] F2FS-fs (sda128): Can't find valid F2FS filesystem in 2th superblock
+Fri Apr 28 06:07:43 2023 kern.err kernel: [   39.046677] exFAT-fs (sda128): invalid boot record signature
+Fri Apr 28 06:07:43 2023 kern.err kernel: [   39.046761] exFAT-fs (sda128): failed to read boot sector
+Fri Apr 28 06:07:43 2023 kern.err kernel: [   39.046838] exFAT-fs (sda128): failed to recognize exfat type
+Fri Apr 28 06:07:44 2023 daemon.warn pppd[5448]: Timeout waiting for PADO packets
+Fri Apr 28 06:07:44 2023 daemon.err pppd[5448]: Unable to complete PPPoE Discovery
+Fri Apr 28 06:07:44 2023 daemon.info pppd[5448]: Exit.
+Fri Apr 28 06:07:44 2023 daemon.notice netifd: Interface 'wan' is now down
+Fri Apr 28 06:07:44 2023 daemon.notice netifd: Interface 'wan' is setting up now
+Fri Apr 28 06:07:44 2023 daemon.notice netifd: wan (10547): uci: Entry not found
+Fri Apr 28 06:07:44 2023 daemon.notice netifd: wan (10547): sh: out of range
+Fri Apr 28 06:07:44 2023 daemon.info pppd[10554]: Plugin pppoe.so loaded.
+Fri Apr 28 06:07:44 2023 daemon.info pppd[10554]: PPPoE plugin from pppd 2.4.9
+Fri Apr 28 06:07:44 2023 daemon.notice pppd[10554]: pppd 2.4.9 started by root, uid 0
+Fri Apr 28 06:07:46 2023 daemon.err nmbd[4824]: [2023/04/28 06:07:46.028788,  0] ../../source3/nmbd/nmbd_become_lmb.c:398(become_local_master_stage2)
+Fri Apr 28 06:07:46 2023 daemon.err nmbd[4824]:   *****
+Fri Apr 28 06:07:46 2023 daemon.err nmbd[4824]:
+Fri Apr 28 06:07:46 2023 daemon.err nmbd[4824]:   Samba name server OPENWRT is now a local master browser for workgroup WORKGROUP on subnet 192.168.123.1
+Fri Apr 28 06:07:46 2023 daemon.err nmbd[4824]:
+Fri Apr 28 06:07:46 2023 daemon.err nmbd[4824]:   *****
+Fri Apr 28 06:07:49 2023 user.notice firewall: Reloading firewall due to ifup of WG0 (WG0)
+Fri Apr 28 06:07:50 2023 cron.err crond[11314]: crond (busybox 1.36.0) started, log level 8
+Fri Apr 28 06:07:50 2023 cron.err crond[11574]: crond (busybox 1.36.0) started, log level 8
+Fri Apr 28 06:07:50 2023 user.notice nlbwmon: Reloading nlbwmon due to ifup of WG0 (WG0)
+Fri Apr 28 06:07:55 2023 daemon.info procd: Instance haproxy::instance1 s in a crash loop 6 crashes, 0 seconds since last crash
+Fri Apr 28 06:07:59 2023 daemon.warn pppd[10554]: Timeout waiting for PADO packets
+Fri Apr 28 06:07:59 2023 daemon.err pppd[10554]: Unable to complete PPPoE Discovery
+Fri Apr 28 06:07:59 2023 daemon.info pppd[10554]: Exit.
+Fri Apr 28 06:07:59 2023 daemon.notice netifd: Interface 'wan' is now down
+Fri Apr 28 06:07:59 2023 daemon.notice netifd: Interface 'wan' is setting up now
+Fri Apr 28 06:07:59 2023 daemon.notice netifd: wan (12051): uci: Entry not found
+Fri Apr 28 06:07:59 2023 daemon.notice netifd: wan (12051): sh: out of range
+Fri Apr 28 06:07:59 2023 daemon.info pppd[12058]: Plugin pppoe.so loaded.
+Fri Apr 28 06:07:59 2023 daemon.info pppd[12058]: PPPoE plugin from pppd 2.4.9
+Fri Apr 28 06:07:59 2023 daemon.notice pppd[12058]: pppd 2.4.9 started by root, uid 0
+Fri Apr 28 06:08:06 2023 user.notice firewall: Reloading firewall due to ifup of lan (eth0)
+Fri Apr 28 06:08:06 2023 cron.err crond[12844]: crond (busybox 1.36.0) started, log level 8
+Fri Apr 28 06:08:07 2023 cron.err crond[13101]: crond (busybox 1.36.0) started, log level 8
+Fri Apr 28 06:08:07 2023 user.notice nlbwmon: Reloading nlbwmon due to ifup of lan (eth0)
+Fri Apr 28 06:08:07 2023 daemon.notice miniupnpd[6730]: shutting down MiniUPnPd
+Fri Apr 28 06:08:07 2023 user.notice upnp daemon: external interface not found, not starting
+Fri Apr 28 06:08:07 2023 daemon.err miniupnpd[13525]: could not open lease file: /var/upnp.leases
+Fri Apr 28 06:08:07 2023 daemon.notice miniupnpd[13525]: HTTP listening on port 5000
+Fri Apr 28 06:08:07 2023 daemon.notice miniupnpd[13525]: Listening for NAT-PMP/PCP traffic on port 5351
+Fri Apr 28 06:08:07 2023 user.notice ddns-scripts[13584]: MYDDNS_IPV62: PID '13584' started at 2023-04-28 06:08
+Fri Apr 28 06:08:08 2023 user.err ddns-scripts[13584]: MYDDNS_IPV62: BusyBox nslookup error: '1'
+Fri Apr 28 06:08:09 2023 user.err ddns-scripts[13584]: MYDDNS_IPV62: BusyBox nslookup error: '1'
+Fri Apr 28 06:08:09 2023 user.warn ddns-scripts[13584]: MYDDNS_IPV62: Get registered/public IP for 'op.wggglgggdns.top' failed - retry 1/0 in 60 seconds
+Fri Apr 28 06:08:15 2023 daemon.warn pppd[12058]: Timeout waiting for PADO packets
+Fri Apr 28 06:08:15 2023 daemon.err pppd[12058]: Unable to complete PPPoE Discovery
+Fri Apr 28 06:08:15 2023 daemon.info pppd[12058]: Exit.
+Fri Apr 28 06:08:15 2023 daemon.notice netifd: Interface 'wan' is now down
+Fri Apr 28 06:08:15 2023 daemon.notice netifd: Interface 'wan' is setting up now
+Fri Apr 28 06:08:15 2023 daemon.notice netifd: wan (15963): uci: Entry not found
+Fri Apr 28 06:08:15 2023 daemon.notice netifd: wan (15963): sh: out of range
+Fri Apr 28 06:08:15 2023 daemon.info pppd[15970]: Plugin pppoe.so loaded.
+Fri Apr 28 06:08:15 2023 daemon.info pppd[15970]: PPPoE plugin from pppd 2.4.9
+Fri Apr 28 06:08:15 2023 daemon.notice pppd[15970]: pppd 2.4.9 started by root, uid 0
+Fri Apr 28 06:08:15 2023 daemon.info pppd[15970]: PPP session is 3013
+Fri Apr 28 06:08:15 2023 daemon.warn pppd[15970]: Connected to e8:68:19:19:e7:37 via interface eth1
+Fri Apr 28 06:08:15 2023 kern.info kernel: [   70.738933] pppoe-wan: renamed from ppp0
+Fri Apr 28 06:08:15 2023 daemon.info pppd[15970]: Renamed interface ppp0 to pppoe-wan
+Fri Apr 28 06:08:15 2023 daemon.info pppd[15970]: Using interface pppoe-wan
+Fri Apr 28 06:08:15 2023 daemon.notice pppd[15970]: Connect: pppoe-wan <--> eth1
+Fri Apr 28 06:08:18 2023 daemon.info pppd[15970]: syncppp not active
+Fri Apr 28 06:08:18 2023 daemon.info pppd[15970]: Remote message: Authentication success,Welcome!
+Fri Apr 28 06:08:18 2023 daemon.notice pppd[15970]: PAP authentication succeeded
+Fri Apr 28 06:08:18 2023 daemon.notice pppd[15970]: peer from calling number E8:68:19:19:E7:37 authorized
+Fri Apr 28 06:08:18 2023 daemon.notice pppd[15970]: local  LL address fe80::199c:c31f:d77d:b1d3
+Fri Apr 28 06:08:18 2023 daemon.notice pppd[15970]: remote LL address fe80::ea68:19ff:fe19:e737
+Fri Apr 28 06:08:18 2023 daemon.info avahi-daemon[2690]: Joining mDNS multicast group on interface pppoe-wan.IPv6 with address fe80::199c:c31f:d77d:b1d3.
+Fri Apr 28 06:08:18 2023 daemon.info avahi-daemon[2690]: New relevant interface pppoe-wan.IPv6 for mDNS.
+Fri Apr 28 06:08:18 2023 daemon.info avahi-daemon[2690]: Registering new address record for fe80::199c:c31f:d77d:b1d3 on pppoe-wan.*.
+Fri Apr 28 06:08:18 2023 daemon.notice pppd[15970]: local  IP address 100.85.172.99
+Fri Apr 28 06:08:18 2023 daemon.notice pppd[15970]: remote IP address 100.85.168.1
+Fri Apr 28 06:08:18 2023 daemon.notice pppd[15970]: primary   DNS address 112.4.0.55
+Fri Apr 28 06:08:18 2023 daemon.notice pppd[15970]: secondary DNS address 221.131.143.69
+Fri Apr 28 06:08:18 2023 daemon.info avahi-daemon[2690]: Joining mDNS multicast group on interface pppoe-wan.IPv4 with address 100.85.172.99.
+Fri Apr 28 06:08:18 2023 daemon.info avahi-daemon[2690]: New relevant interface pppoe-wan.IPv4 for mDNS.
+Fri Apr 28 06:08:18 2023 daemon.info avahi-daemon[2690]: Registering new address record for 100.85.172.99 on pppoe-wan.IPv4.
+Fri Apr 28 06:08:18 2023 daemon.info avahi-daemon[2690]: Withdrawing address record for 100.85.172.99 on pppoe-wan.
+Fri Apr 28 06:08:18 2023 daemon.info avahi-daemon[2690]: Leaving mDNS multicast group on interface pppoe-wan.IPv4 with address 100.85.172.99.
+Fri Apr 28 06:08:18 2023 daemon.info avahi-daemon[2690]: Interface pppoe-wan.IPv4 no longer relevant for mDNS.
+Fri Apr 28 06:08:18 2023 daemon.info avahi-daemon[2690]: Joining mDNS multicast group on interface pppoe-wan.IPv4 with address 100.85.172.99.
+Fri Apr 28 06:08:18 2023 daemon.info avahi-daemon[2690]: New relevant interface pppoe-wan.IPv4 for mDNS.
+Fri Apr 28 06:08:18 2023 daemon.info avahi-daemon[2690]: Registering new address record for 100.85.172.99 on pppoe-wan.IPv4.
+Fri Apr 28 06:08:18 2023 daemon.notice netifd: Network device 'pppoe-wan' link is up
+Fri Apr 28 06:08:18 2023 daemon.notice netifd: Interface 'wan' is now up
+Fri Apr 28 06:08:18 2023 daemon.notice netifd: Network alias 'pppoe-wan' link is up
+Fri Apr 28 06:08:18 2023 daemon.notice netifd: Interface 'wan_6' is enabled
+Fri Apr 28 06:08:18 2023 daemon.notice netifd: Interface 'wan_6' has link connectivity
+Fri Apr 28 06:08:18 2023 daemon.notice netifd: Interface 'wan_6' is setting up now
+Fri Apr 28 06:08:21 2023 daemon.info avahi-daemon[2690]: Leaving mDNS multicast group on interface pppoe-wan.IPv6 with address fe80::199c:c31f:d77d:b1d3.
+Fri Apr 28 06:08:21 2023 daemon.info avahi-daemon[2690]: Joining mDNS multicast group on interface pppoe-wan.IPv6 with address 2409:8a20:1804:e331:199c:c31f:d77d:b1d3.
+Fri Apr 28 06:08:21 2023 daemon.info avahi-daemon[2690]: Registering new address record for 2409:8a20:1804:e331:199c:c31f:d77d:b1d3 on pppoe-wan.*.
+Fri Apr 28 06:08:21 2023 daemon.info avahi-daemon[2690]: Withdrawing address record for fe80::199c:c31f:d77d:b1d3 on pppoe-wan.
+Fri Apr 28 06:08:21 2023 daemon.info avahi-daemon[2690]: Leaving mDNS multicast group on interface eth0.IPv6 with address fe80::223:24ff:fea1:bb2b.
+Fri Apr 28 06:08:21 2023 daemon.info avahi-daemon[2690]: Joining mDNS multicast group on interface eth0.IPv6 with address 2409:8a20:184a:3b40::1.
+Fri Apr 28 06:08:21 2023 daemon.info avahi-daemon[2690]: Registering new address record for 2409:8a20:184a:3b40::1 on eth0.*.
+Fri Apr 28 06:08:21 2023 daemon.info avahi-daemon[2690]: Withdrawing address record for fe80::223:24ff:fea1:bb2b on eth0.
+Fri Apr 28 06:08:21 2023 daemon.notice netifd: Interface 'wan_6' is now up
+Fri Apr 28 06:08:21 2023 user.notice firewall: Reloading firewall due to ifup of wan6 (eth1)
+Fri Apr 28 06:08:22 2023 cron.err crond[16968]: crond (busybox 1.36.0) started, log level 8
+Fri Apr 28 06:08:22 2023 cron.err crond[17285]: crond (busybox 1.36.0) started, log level 8
+Fri Apr 28 06:08:22 2023 user.notice nlbwmon: Reloading nlbwmon due to ifup of wan6 (eth1)
+Fri Apr 28 06:08:22 2023 daemon.notice miniupnpd[13525]: shutting down MiniUPnPd
+Fri Apr 28 06:08:22 2023 daemon.err miniupnpd[17715]: could not open lease file: /var/upnp.leases
+Fri Apr 28 06:08:22 2023 daemon.notice miniupnpd[17715]: HTTP listening on port 5000
+Fri Apr 28 06:08:22 2023 daemon.notice miniupnpd[17715]: Listening for NAT-PMP/PCP traffic on port 5351
+Fri Apr 28 06:08:33 2023 user.notice firewall: Reloading firewall due to ifup of wan (pppoe-wan)
+Fri Apr 28 06:08:34 2023 cron.err crond[18561]: crond (busybox 1.36.0) started, log level 8
+Fri Apr 28 06:08:34 2023 cron.err crond[18819]: crond (busybox 1.36.0) started, log level 8
+Fri Apr 28 06:08:34 2023 user.notice nlbwmon: Reloading nlbwmon due to ifup of wan (pppoe-wan)
+Fri Apr 28 06:08:35 2023 cron.err crond[19654]: crond (busybox 1.36.0) started, log level 8
+Fri Apr 28 06:08:36 2023 cron.err crond[21054]: crond (busybox 1.36.0) started, log level 8
+Fri Apr 28 06:08:36 2023 user.warn kernel: [   91.893976] passwall: restart when wan ifup
+Fri Apr 28 06:08:46 2023 user.notice firewall: Reloading firewall due to ifup of wan_6 (pppoe-wan)
+Fri Apr 28 06:08:47 2023 cron.err crond[21842]: crond (busybox 1.36.0) started, log level 8
+Fri Apr 28 06:08:48 2023 cron.err crond[22095]: crond (busybox 1.36.0) started, log level 8
+Fri Apr 28 06:08:48 2023 user.notice nlbwmon: Reloading nlbwmon due to ifup of wan_6 (pppoe-wan)
+Fri Apr 28 06:08:48 2023 cron.err crond[22917]: crond (busybox 1.36.0) started, log level 8
+Fri Apr 28 06:08:50 2023 cron.err crond[24317]: crond (busybox 1.36.0) started, log level 8
+Fri Apr 28 06:08:50 2023 user.warn kernel: [  105.316806] passwall: restart when wan_6 ifup
+Fri Apr 28 06:14:15 2023 user.warn ddns-scripts[13584]: MYDDNS_IPV62: Updating IP at DDNS provider failed - starting retry 1/0
+Fri Apr 28 14:31:09 2023 cron.err crond[25216]: crond (busybox 1.36.0) started, log level 8
+Fri Apr 28 14:31:10 2023 cron.err crond[26616]: crond (busybox 1.36.0) started, log level 8
+Fri Apr 28 14:32:05 2023 kern.info kernel: [30300.189949] r8168: eth1: link down
+Fri Apr 28 14:32:05 2023 daemon.notice netifd: Network device 'eth1' link is down
+Fri Apr 28 14:32:05 2023 daemon.notice netifd: Interface 'wan' has link connectivity loss
+Fri Apr 28 14:32:05 2023 daemon.notice netifd: Interface 'wan6' has link connectivity loss
+Fri Apr 28 14:32:05 2023 daemon.notice netifd: Interface 'wan6' is now down
+Fri Apr 28 14:32:05 2023 daemon.info pppd[15970]: Terminating on signal 15
+Fri Apr 28 14:32:05 2023 daemon.info pppd[15970]: Connect time 503.8 minutes.
+Fri Apr 28 14:32:05 2023 daemon.info pppd[15970]: Sent 348781399 bytes, received 1249613248 bytes.
+Fri Apr 28 14:32:05 2023 daemon.err miniupnpd[17715]: ioctl(s, SIOCGIFADDR, ...): Address not available
+Fri Apr 28 14:32:05 2023 daemon.err miniupnpd[17715]: Failed to get IP for interface pppoe-wan
+Fri Apr 28 14:32:05 2023 daemon.warn miniupnpd[17715]: SendNATPMPPublicAddressChangeNotification: cannot get public IP address, stopping
+Fri Apr 28 14:32:05 2023 daemon.info avahi-daemon[2690]: Withdrawing address record for 100.85.172.99 on pppoe-wan.
+Fri Apr 28 14:32:05 2023 daemon.info avahi-daemon[2690]: Leaving mDNS multicast group on interface pppoe-wan.IPv4 with address 100.85.172.99.
+Fri Apr 28 14:32:05 2023 daemon.info avahi-daemon[2690]: Interface pppoe-wan.IPv4 no longer relevant for mDNS.
+Fri Apr 28 14:32:05 2023 daemon.err odhcp6c[16165]: Failed to send RS (Permission denied)
+Fri Apr 28 14:32:05 2023 daemon.err odhcp6c[16165]: Failed to send RELEASE message to ff02::1:2 (Permission denied)
+Fri Apr 28 14:32:05 2023 daemon.info avahi-daemon[2690]: Interface pppoe-wan.IPv6 no longer relevant for mDNS.
+Fri Apr 28 14:32:05 2023 daemon.info avahi-daemon[2690]: Leaving mDNS multicast group on interface pppoe-wan.IPv6 with address 2409:8a20:1804:e331:199c:c31f:d77d:b1d3.
+Fri Apr 28 14:32:05 2023 daemon.notice netifd: Network device 'pppoe-wan' link is down
+Fri Apr 28 14:32:05 2023 daemon.notice netifd: Network alias 'pppoe-wan' link is down
+Fri Apr 28 14:32:05 2023 daemon.notice netifd: Interface 'wan_6' has link connectivity loss
+Fri Apr 28 14:32:05 2023 daemon.info avahi-daemon[2690]: Withdrawing address record for 2409:8a20:1804:e331:199c:c31f:d77d:b1d3 on pppoe-wan.
+Fri Apr 28 14:32:05 2023 daemon.notice netifd: wan_6 (16165): Command failed: ubus call network.interface notify_proto { "action": 0, "link-up": false, "keep": false, "interface": "wan_6" } (Permission denied)
+Fri Apr 28 14:32:06 2023 daemon.err odhcp6c[16165]: Failed to send SOLICIT message to ff02::1:2 (Permission denied)
+Fri Apr 28 14:32:06 2023 daemon.notice netifd: Interface 'wan_6' is now down
+Fri Apr 28 14:32:06 2023 daemon.notice netifd: Interface 'wan_6' is disabled
+Fri Apr 28 14:32:06 2023 daemon.info avahi-daemon[2690]: Registering new address record for fe80::223:24ff:fea1:bb2b on eth0.*.
+Fri Apr 28 14:32:10 2023 daemon.notice netifd: Interface 'wan' is now down
+Fri Apr 28 14:32:19 2023 daemon.err miniupnpd[17715]: Failed to get ip address for interface pppoe-wan
+Fri Apr 28 14:32:44 2023 kern.info kernel: [30338.751587] r8168: eth1: link up
+Fri Apr 28 14:32:44 2023 daemon.notice netifd: Network device 'eth1' link is up
+Fri Apr 28 14:32:44 2023 daemon.notice netifd: Interface 'wan' has link connectivity
+Fri Apr 28 14:32:44 2023 daemon.notice netifd: Interface 'wan' is setting up now
+Fri Apr 28 14:32:44 2023 daemon.notice netifd: Interface 'wan6' has link connectivity
+Fri Apr 28 14:32:44 2023 daemon.notice netifd: Interface 'wan6' is setting up now
+Fri Apr 28 14:32:44 2023 daemon.notice netifd: Interface 'wan6' is now up
+Fri Apr 28 14:32:44 2023 daemon.notice netifd: wan (27633): uci: Entry not found
+Fri Apr 28 14:32:44 2023 daemon.notice netifd: wan (27633): sh: out of range
+Fri Apr 28 14:32:44 2023 daemon.info pppd[27650]: Plugin pppoe.so loaded.
+Fri Apr 28 14:32:44 2023 daemon.info pppd[27650]: PPPoE plugin from pppd 2.4.9
+Fri Apr 28 14:32:44 2023 daemon.notice pppd[27650]: pppd 2.4.9 started by root, uid 0
+Fri Apr 28 14:32:53 2023 daemon.err miniupnpd[17715]: Failed to get ip address for interface pppoe-wan
+Fri Apr 28 14:32:54 2023 user.notice firewall: Reloading firewall due to ifup of wan6 (eth1)
+Fri Apr 28 14:32:55 2023 cron.err crond[28484]: crond (busybox 1.36.0) started, log level 8
+Fri Apr 28 14:32:55 2023 cron.err crond[28825]: crond (busybox 1.36.0) started, log level 8
+Fri Apr 28 14:32:55 2023 user.notice nlbwmon: Reloading nlbwmon due to ifup of wan6 (eth1)
+Fri Apr 28 14:32:59 2023 daemon.warn pppd[27650]: Timeout waiting for PADO packets
+Fri Apr 28 14:32:59 2023 daemon.err pppd[27650]: Unable to complete PPPoE Discovery
+Fri Apr 28 14:32:59 2023 daemon.info pppd[27650]: Exit.
+Fri Apr 28 14:32:59 2023 daemon.notice netifd: Interface 'wan' is now down
+Fri Apr 28 14:32:59 2023 daemon.notice netifd: Interface 'wan' is setting up now
+Fri Apr 28 14:32:59 2023 daemon.notice netifd: wan (29613): uci: Entry not found
+Fri Apr 28 14:32:59 2023 daemon.notice netifd: wan (29613): sh: out of range
+Fri Apr 28 14:32:59 2023 daemon.info pppd[29649]: Plugin pppoe.so loaded.
+Fri Apr 28 14:32:59 2023 daemon.info pppd[29649]: PPPoE plugin from pppd 2.4.9
+Fri Apr 28 14:32:59 2023 daemon.notice pppd[29649]: pppd 2.4.9 started by root, uid 0
+Fri Apr 28 14:33:03 2023 daemon.err miniupnpd[17715]: Failed to get ip address for interface pppoe-wan
+Fri Apr 28 14:33:14 2023 daemon.warn pppd[29649]: Timeout waiting for PADO packets
+Fri Apr 28 14:33:14 2023 daemon.err pppd[29649]: Unable to complete PPPoE Discovery
+Fri Apr 28 14:33:14 2023 daemon.info pppd[29649]: Exit.
+Fri Apr 28 14:33:14 2023 daemon.notice netifd: Interface 'wan' is now down
+Fri Apr 28 14:33:14 2023 daemon.notice netifd: Interface 'wan' is setting up now
+Fri Apr 28 14:33:14 2023 daemon.notice netifd: wan (31135): uci: Entry not found
+Fri Apr 28 14:33:14 2023 daemon.notice netifd: wan (31135): sh: out of range
+Fri Apr 28 14:33:14 2023 daemon.info pppd[31169]: Plugin pppoe.so loaded.
+Fri Apr 28 14:33:14 2023 daemon.info pppd[31169]: PPPoE plugin from pppd 2.4.9
+Fri Apr 28 14:33:14 2023 daemon.notice pppd[31169]: pppd 2.4.9 started by root, uid 0
+Fri Apr 28 14:33:20 2023 daemon.info pppd[31169]: PPP session is 18494
+Fri Apr 28 14:33:20 2023 daemon.warn pppd[31169]: Connected to e8:68:19:19:e7:37 via interface eth1
+Fri Apr 28 14:33:20 2023 kern.info kernel: [30374.548825] pppoe-wan: renamed from ppp0
+Fri Apr 28 14:33:20 2023 daemon.info pppd[31169]: Renamed interface ppp0 to pppoe-wan
+Fri Apr 28 14:33:20 2023 daemon.info pppd[31169]: Using interface pppoe-wan
+Fri Apr 28 14:33:20 2023 daemon.notice pppd[31169]: Connect: pppoe-wan <--> eth1
+Fri Apr 28 14:33:21 2023 daemon.err miniupnpd[17715]: Failed to get ip address for interface pppoe-wan
+Fri Apr 28 14:33:21 2023 daemon.err miniupnpd[17715]: Failed to get ip address for interface pppoe-wan
+Fri Apr 28 14:33:21 2023 daemon.err miniupnpd[17715]: Failed to get ip address for interface pppoe-wan
+Fri Apr 28 14:33:22 2023 daemon.info pppd[31169]: syncppp not active
+Fri Apr 28 14:33:22 2023 daemon.info pppd[31169]: Remote message: Authentication success,Welcome!
+Fri Apr 28 14:33:22 2023 daemon.notice pppd[31169]: PAP authentication succeeded
+Fri Apr 28 14:33:22 2023 daemon.notice pppd[31169]: peer from calling number E8:68:19:19:E7:37 authorized
+Fri Apr 28 14:33:23 2023 daemon.notice pppd[31169]: local  LL address fe80::dd52:54de:719a:59b2
+Fri Apr 28 14:33:23 2023 daemon.notice pppd[31169]: remote LL address fe80::ea68:19ff:fe19:e737
+Fri Apr 28 14:33:23 2023 daemon.info avahi-daemon[2690]: Joining mDNS multicast group on interface pppoe-wan.IPv6 with address fe80::dd52:54de:719a:59b2.
+Fri Apr 28 14:33:23 2023 daemon.info avahi-daemon[2690]: New relevant interface pppoe-wan.IPv6 for mDNS.
+Fri Apr 28 14:33:23 2023 daemon.info avahi-daemon[2690]: Registering new address record for fe80::dd52:54de:719a:59b2 on pppoe-wan.*.
+Fri Apr 28 14:33:23 2023 daemon.notice netifd: Network device 'pppoe-wan' link is up
+Fri Apr 28 14:33:23 2023 daemon.notice netifd: Interface 'wan' is now up
+Fri Apr 28 14:33:23 2023 daemon.notice pppd[31169]: local  IP address 100.85.139.37
+Fri Apr 28 14:33:23 2023 daemon.notice pppd[31169]: remote IP address 100.85.136.1
+Fri Apr 28 14:33:23 2023 daemon.notice pppd[31169]: primary   DNS address 112.4.0.55
+Fri Apr 28 14:33:23 2023 daemon.notice pppd[31169]: secondary DNS address 221.131.143.69
+Fri Apr 28 14:33:23 2023 daemon.info avahi-daemon[2690]: Joining mDNS multicast group on interface pppoe-wan.IPv4 with address 100.85.139.37.
+Fri Apr 28 14:33:23 2023 daemon.info avahi-daemon[2690]: New relevant interface pppoe-wan.IPv4 for mDNS.
+Fri Apr 28 14:33:23 2023 daemon.info avahi-daemon[2690]: Registering new address record for 100.85.139.37 on pppoe-wan.IPv4.
+Fri Apr 28 14:33:23 2023 daemon.info avahi-daemon[2690]: Withdrawing address record for 100.85.139.37 on pppoe-wan.
+Fri Apr 28 14:33:23 2023 daemon.info avahi-daemon[2690]: Leaving mDNS multicast group on interface pppoe-wan.IPv4 with address 100.85.139.37.
+Fri Apr 28 14:33:23 2023 daemon.info avahi-daemon[2690]: Interface pppoe-wan.IPv4 no longer relevant for mDNS.
+Fri Apr 28 14:33:23 2023 daemon.info avahi-daemon[2690]: Joining mDNS multicast group on interface pppoe-wan.IPv4 with address 100.85.139.37.
+Fri Apr 28 14:33:23 2023 daemon.info avahi-daemon[2690]: New relevant interface pppoe-wan.IPv4 for mDNS.
+Fri Apr 28 14:33:23 2023 daemon.info avahi-daemon[2690]: Registering new address record for 100.85.139.37 on pppoe-wan.IPv4.
+Fri Apr 28 14:33:23 2023 daemon.notice netifd: Network alias 'pppoe-wan' link is up
+Fri Apr 28 14:33:23 2023 daemon.notice netifd: Interface 'wan_6' is enabled
+Fri Apr 28 14:33:23 2023 daemon.notice netifd: Interface 'wan_6' has link connectivity
+Fri Apr 28 14:33:23 2023 daemon.notice netifd: Interface 'wan_6' is setting up now
+Fri Apr 28 14:33:25 2023 daemon.info avahi-daemon[2690]: Leaving mDNS multicast group on interface pppoe-wan.IPv6 with address fe80::dd52:54de:719a:59b2.
+Fri Apr 28 14:33:25 2023 daemon.info avahi-daemon[2690]: Joining mDNS multicast group on interface pppoe-wan.IPv6 with address 2409:8a20:1804:e5f6:dd52:54de:719a:59b2.
+Fri Apr 28 14:33:25 2023 daemon.info avahi-daemon[2690]: Registering new address record for 2409:8a20:1804:e5f6:dd52:54de:719a:59b2 on pppoe-wan.*.
+Fri Apr 28 14:33:25 2023 daemon.info avahi-daemon[2690]: Withdrawing address record for fe80::dd52:54de:719a:59b2 on pppoe-wan.
+Fri Apr 28 14:33:25 2023 daemon.info avahi-daemon[2690]: Registering new address record for 2409:8a20:184a:64e0::1 on eth0.*.
+Fri Apr 28 14:33:25 2023 daemon.info avahi-daemon[2690]: Withdrawing address record for 2409:8a20:184a:3b40::1 on eth0.
+Fri Apr 28 14:33:25 2023 daemon.info avahi-daemon[2690]: Withdrawing address record for fe80::223:24ff:fea1:bb2b on eth0.
+Fri Apr 28 14:33:25 2023 daemon.notice netifd: Interface 'wan_6' is now up
+Fri Apr 28 14:33:33 2023 user.notice firewall: Reloading firewall due to ifup of wan (pppoe-wan)
+Fri Apr 28 14:33:34 2023 cron.err crond[1710]: crond (busybox 1.36.0) started, log level 8
+Fri Apr 28 14:33:34 2023 cron.err crond[1967]: crond (busybox 1.36.0) started, log level 8
+Fri Apr 28 14:33:34 2023 user.notice nlbwmon: Reloading nlbwmon due to ifup of wan (pppoe-wan)
+Fri Apr 28 14:33:35 2023 cron.err crond[2821]: crond (busybox 1.36.0) started, log level 8
+Fri Apr 28 14:33:36 2023 cron.err crond[4229]: crond (busybox 1.36.0) started, log level 8
+Fri Apr 28 14:33:36 2023 user.warn kernel: [30391.030780] passwall: restart when wan ifup
+Fri Apr 28 14:33:36 2023 user.notice firewall: Reloading firewall due to ifupdate of wan (pppoe-wan)
+Fri Apr 28 14:33:37 2023 cron.err crond[4920]: crond (busybox 1.36.0) started, log level 8
+Fri Apr 28 14:33:37 2023 cron.err crond[5178]: crond (busybox 1.36.0) started, log level 8
+Fri Apr 28 14:33:48 2023 user.notice firewall: Reloading firewall due to ifup of wan_6 (pppoe-wan)
+Fri Apr 28 14:33:49 2023 cron.err crond[6216]: crond (busybox 1.36.0) started, log level 8
+Fri Apr 28 14:33:49 2023 cron.err crond[6561]: crond (busybox 1.36.0) started, log level 8
+Fri Apr 28 14:33:49 2023 user.notice nlbwmon: Reloading nlbwmon due to ifup of wan_6 (pppoe-wan)
+Fri Apr 28 14:33:50 2023 cron.err crond[7472]: crond (busybox 1.36.0) started, log level 8
+Fri Apr 28 14:33:51 2023 cron.err crond[8955]: crond (busybox 1.36.0) started, log level 8
+Fri Apr 28 14:33:51 2023 user.warn kernel: [30406.038561] passwall: restart when wan_6 ifup
+Fri Apr 28 14:40:22 2023 user.warn ddns-scripts[13584]: MYDDNS_IPV62: Updating IP at DDNS provider failed - starting retry 1/0
+Fri Apr 28 14:45:24 2023 user.warn ddns-scripts[13584]: MYDDNS_IPV62: Error in 'expand_ipv6()' - invalid IPv6 found: '2409:8a20:184a:3b40::12409:8a20:184a:64e0::1' expanded: '2409:8a20:184a:3b40:00012409:8a20:184a:64e0:0001'
+Fri Apr 28 14:45:25 2023 user.warn ddns-scripts[13584]: MYDDNS_IPV62: Updating IP at DDNS provider failed - starting retry 2/0
+Fri Apr 28 14:55:28 2023 user.warn ddns-scripts[13584]: MYDDNS_IPV62: Error in 'expand_ipv6()' - invalid IPv6 found: '2409:8a20:184a:3b40::12409:8a20:184a:64e0::1' expanded: '2409:8a20:184a:3b40:00012409:8a20:184a:64e0:0001'
+Fri Apr 28 14:55:28 2023 user.warn ddns-scripts[13584]: MYDDNS_IPV62: Updating IP at DDNS provider failed - starting retry 1/0
+Fri Apr 28 14:55:29 2023 user.err ddns-scripts[13584]: MYDDNS_IPV62: wget ÈîôËØØ‰ª£Á†Å: '8'
+Fri Apr 28 14:55:30 2023 user.warn ddns-scripts[13584]: MYDDNS_IPV62: ‰º†ËæìÂ§±Ë¥• - 1/0 Âú® 60 ÁßíÂêéÈáçËØï
