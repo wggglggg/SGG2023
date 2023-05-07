@@ -1,4 +1,4 @@
-package com._03var;
+package com.grammar._03var;
 
 import org.junit.Test;
 
