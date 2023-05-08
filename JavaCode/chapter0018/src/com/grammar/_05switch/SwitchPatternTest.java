@@ -13,7 +13,7 @@ public class SwitchPatternTest {
     public static void main(String[] args) {
         System.out.println(formatter(12));
 
-        System.out.println(formatterSwitchPatter("打印机"));
+//        System.out.println(formatterSwitchPatter("打印机"));
     }
     /*
      * JDK17之前
@@ -35,14 +35,14 @@ public class SwitchPatternTest {
     /*
      * JDK17中switch的模式匹配
      * */
-    static String formatterSwitchPatter(Object o) {
-        String formatted = switch (o) {
-            case Integer i: yield "int:" + i;
-            case Long l: yield "long:" + l;
-            case Double d: yield "double:" + d;
-            case String s: yield "String:" + s;
-            default: yield o.toString();
-        };
-        return formatted;
-    }
+//    static String formatterSwitchPatter(Object o) {
+//        String formatted = switch (o) {
+//            case Integer i: yield "int:" + i;
+//            case Long l: yield "long:" + l;
+//            case Double d: yield "double:" + d;
+//            case String s: yield "String:" + s;
+//            default: yield o.toString();
+//        };
+//        return formatted;
+//    }
 }
